@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste Storage</title>
+  </head>
+  <body onload="gravar()">
+    <h1 style="color: blue">Exercício</h1>
+
+    <h1 onclick="">Complete com os dados pedidos:</h1>
+
+    <div>
+      <input id="nome" type="text" placeholder="Seu nome" />
+      <br />
+      <input id="idade" type="number" placeholder="Sua idade" />
+      <br />
+      <button onclick="criar()">Criar</button>
+      <br />
+      <button onclick="apresentar()">Apresentar</button>
+      <span id="apresentarNome"></span>
+      <span id="apresentarIdade"></span>
+
+      <button onclick="deletarNome()">Deletar</button>
+    </div>
+
+    <script src="./local.js"></script>
+  </body>
+</html>
